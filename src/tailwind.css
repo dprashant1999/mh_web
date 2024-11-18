@@ -22,5 +22,6 @@
 .r_border ul li:not(:last-child){
     border-right: 2px solid #fff;
 }
+.page_titel{@apply p-2 px-3 bg-l2 rounded-md flex items-center text18 justify-center absolute -left-1 -top-7 lg:-top-3 -rotate-12 pointer-events-none select-none -z-10;}
 @tailwind components;
 @tailwind utilities;
