@@ -4,9 +4,9 @@
     font-family: "Poppins", sans-serif;
 }
 .warrper{@apply w-full max-w-[1480px] px-5 mx-auto;}
-.h2,h2{@apply text-46 md:text-6xl lg:text-75 xl:text-96 2xl:text-116 font-semibold text-light_green;}
+.h2,h2{@apply text-32 sm:text-46 md:text-6xl lg:text-75 xl:text-96 2xl:text-116 font-semibold text-light_green;}
 .h3,h3{@apply text-24 md:text-28 xl:text-38 2xl:text-50 font-semibold text-primary;}
-.h1,h1,.text96{@apply text-38 md:text-50 lg:text-75 2xl:text-96 font-medium text-primary;}
+.h1,h1,.text96{@apply text-32 sm:text-38 md:text-50 lg:text-75 2xl:text-96 font-medium text-primary;}
 .text16{@apply text-12 md:text-14 2xl:text-16;}
 .text18{@apply text-14 lg:text-16 2xl:text-18;}
 .text20{@apply text-14 md:text-18 2xl:text-20 font-medium text-secondary;}
@@ -22,7 +22,7 @@
 .r_border ul li:not(:last-child){
     border-right: 2px solid #fff;
 }
-.page_titel{@apply p-2 px-3 bg-l2 rounded-md flex items-center text18 justify-center absolute -left-1 -top-7 lg:-top-3 -rotate-12 pointer-events-none select-none -z-10;}
+.page_titel{@apply p-1.5 sm:p-2 px-2 sm:px-3 bg-l2 rounded-md flex items-center text-12 sm:text-14 lg:text-16 2xl:text-18 justify-center absolute -left-1 -top-7 lg:-top-3 -rotate-12 pointer-events-none select-none -z-10;}
 
 .matual_f:hover .dropdown-menu, .resorce:hover .dropdown-menu{
     visibility: visible;
