@@ -22,5 +22,19 @@
 .r_border ul li:not(:last-child){
     border-right: 2px solid #fff;
 }
+.page_titel{@apply p-2 px-3 bg-l2 rounded-md flex items-center text18 justify-center absolute -left-1 -top-7 lg:-top-3 -rotate-12 pointer-events-none select-none -z-10;}
+
+.matual_f:hover .dropdown-menu, .resorce:hover .dropdown-menu{
+    visibility: visible;
+    left: 50%;
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+  .active-menu-link a{@apply bg-[#F0F3F9];}
+  .matual_f:hover .dropdown-menu .drop_box, .matual_f:hover .dropdown-menu .drop_box, .resorce:hover .dropdown-menu .drop_box, .resorce:hover .dropdown-menu .drop_box{
+    transform: translateY(0);
+    transition: 0.3s all ease-in-out;
+  }
+  footer .text18{@apply text-12 sm:text-14 xl:text-16 2xl:text-18;}
 @tailwind components;
 @tailwind utilities;
