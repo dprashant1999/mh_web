@@ -1053,8 +1053,20 @@ footer .text18{
   top: -2.5rem;
 }
 
+.-top-4{
+  top: -1rem;
+}
+
+.-top-6{
+  top: -1.5rem;
+}
+
 .bottom-0{
   bottom: 0px;
+}
+
+.bottom-4{
+  bottom: 1rem;
 }
 
 .left-0{
@@ -1067,6 +1079,10 @@ footer .text18{
 
 .left-14{
   left: 3.5rem;
+}
+
+.right-20{
+  right: 5rem;
 }
 
 .right-4{
@@ -1093,8 +1109,60 @@ footer .text18{
   top: 100%;
 }
 
-.bottom-4{
-  bottom: 1rem;
+.-left-\[396px\]{
+  left: -396px;
+}
+
+.top-\[131px\]{
+  top: 131px;
+}
+
+.-left-64{
+  left: -16rem;
+}
+
+.top-32{
+  top: 8rem;
+}
+
+.-left-96{
+  left: -24rem;
+}
+
+.top-24{
+  top: 6rem;
+}
+
+.-left-\[375px\]{
+  left: -375px;
+}
+
+.-left-\[365px\]{
+  left: -365px;
+}
+
+.-right-\[365px\]{
+  right: -365px;
+}
+
+.-right-\[93px\]{
+  right: -93px;
+}
+
+.top-36{
+  top: 9rem;
+}
+
+.-top-0{
+  top: -0px;
+}
+
+.-top-2\.5{
+  top: -0.625rem;
+}
+
+.-z-\[1\]{
+  z-index: -1;
 }
 
 .z-10{
@@ -1107,10 +1175,6 @@ footer .text18{
 
 .z-50{
   z-index: 50;
-}
-
-.z-\[999\]{
-  z-index: 999;
 }
 
 .order-1{
@@ -1152,6 +1216,10 @@ footer .text18{
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mb-1{
+  margin-bottom: 0.25rem;
 }
 
 .mb-1\.5{
@@ -1200,6 +1268,10 @@ footer .text18{
 
 .mr-2{
   margin-right: 0.5rem;
+}
+
+.mt-0{
+  margin-top: 0px;
 }
 
 .mt-1{
@@ -1298,12 +1370,12 @@ footer .text18{
   height: 10rem;
 }
 
-.h-48{
-  height: 12rem;
-}
-
 .h-6{
   height: 1.5rem;
+}
+
+.h-\[180px\]{
+  height: 180px;
 }
 
 .h-\[calc\(100vh-80px\)\]{
@@ -1334,6 +1406,10 @@ footer .text18{
   width: 50%;
 }
 
+.w-11\/12{
+  width: 91.666667%;
+}
+
 .w-2\.5{
   width: 0.625rem;
 }
@@ -1342,12 +1418,12 @@ footer .text18{
   width: 1rem;
 }
 
-.w-48{
-  width: 12rem;
-}
-
 .w-6{
   width: 1.5rem;
+}
+
+.w-\[180px\]{
+  width: 180px;
 }
 
 .w-fit{
@@ -1357,14 +1433,6 @@ footer .text18{
 
 .w-full{
   width: 100%;
-}
-
-.w-10\/12{
-  width: 83.333333%;
-}
-
-.w-11\/12{
-  width: 91.666667%;
 }
 
 .min-w-\[264px\]{
@@ -1377,6 +1445,10 @@ footer .text18{
 
 .max-w-10{
   max-width: 2.5rem;
+}
+
+.max-w-14{
+  max-width: 3.5rem;
 }
 
 .max-w-16{
@@ -1411,8 +1483,20 @@ footer .text18{
   max-width: 24rem;
 }
 
+.max-w-\[1200px\]{
+  max-width: 1200px;
+}
+
+.max-w-\[150px\]{
+  max-width: 150px;
+}
+
 .max-w-\[200px\]{
   max-width: 200px;
+}
+
+.max-w-\[216px\]{
+  max-width: 216px;
 }
 
 .max-w-\[240px\]{
@@ -1433,6 +1517,10 @@ footer .text18{
 
 .max-w-\[341px\]{
   max-width: 341px;
+}
+
+.max-w-\[350px\]{
+  max-width: 350px;
 }
 
 .max-w-\[436px\]{
@@ -1467,6 +1555,14 @@ footer .text18{
   max-width: 749px;
 }
 
+.max-w-\[770px\]{
+  max-width: 770px;
+}
+
+.max-w-\[787px\]{
+  max-width: 787px;
+}
+
 .max-w-\[798px\]{
   max-width: 798px;
 }
@@ -1475,20 +1571,24 @@ footer .text18{
   max-width: 922px;
 }
 
-.max-w-\[980px\]{
-  max-width: 980px;
-}
-
 .max-w-full{
   max-width: 100%;
 }
 
-.max-w-\[350px\]{
-  max-width: 350px;
+.max-w-28{
+  max-width: 7rem;
 }
 
-.flex-none{
-  flex: none;
+.max-w-20{
+  max-width: 5rem;
+}
+
+.max-w-3xl{
+  max-width: 48rem;
+}
+
+.max-w-40{
+  max-width: 10rem;
 }
 
 .grow{
@@ -1515,6 +1615,11 @@ footer .text18{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-rotate-6{
+  --tw-rotate: -6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .rotate-\[60deg\]{
   --tw-rotate: 60deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1530,6 +1635,10 @@ footer .text18{
 
 .list-inside{
   list-style-position: inside;
+}
+
+.list-outside{
+  list-style-position: outside;
 }
 
 .list-decimal{
@@ -1662,22 +1771,28 @@ footer .text18{
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-8 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.space-x-5 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+.space-y-9 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]){
+.space-y-3\.5 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(0.875rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.875rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden{
@@ -1716,6 +1831,10 @@ footer .text18{
 
 .rounded-3xl{
   border-radius: 1.5rem;
+}
+
+.rounded-\[125px\]{
+  border-radius: 125px;
 }
 
 .rounded-full{
@@ -1823,8 +1942,18 @@ footer .text18{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\#FFFFFF\]{
+  --tw-gradient-from: #FFFFFF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-\[\#0D2B43\]{
   --tw-gradient-to: #0D2B43 var(--tw-gradient-to-position);
+}
+
+.to-\[\#F0F3F9\]{
+  --tw-gradient-to: #F0F3F9 var(--tw-gradient-to-position);
 }
 
 .object-cover{
@@ -1879,6 +2008,11 @@ footer .text18{
   padding-right: 0.75rem;
 }
 
+.px-3\.5{
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1924,9 +2058,19 @@ footer .text18{
   padding-bottom: 0.75rem;
 }
 
+.py-3\.5{
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .py-8{
@@ -1934,9 +2078,14 @@ footer .text18{
   padding-bottom: 2rem;
 }
 
-.py-3\.5{
-  padding-top: 0.875rem;
-  padding-bottom: 0.875rem;
+.px-2\.5{
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.py-1\.5{
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
 }
 
 .pb-0{
@@ -1945,6 +2094,10 @@ footer .text18{
 
 .pb-1\.5{
   padding-bottom: 0.375rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
 }
 
 .pb-2{
@@ -1983,16 +2136,16 @@ footer .text18{
   padding-right: 1.25rem;
 }
 
+.pt-0{
+  padding-top: 0px;
+}
+
 .pt-14{
   padding-top: 3.5rem;
 }
 
 .pt-2{
   padding-top: 0.5rem;
-}
-
-.pt-24{
-  padding-top: 6rem;
 }
 
 .pt-3{
@@ -2007,12 +2160,16 @@ footer .text18{
   padding-top: 1.25rem;
 }
 
-.pt-6{
-  padding-top: 1.5rem;
-}
-
 .pt-8{
   padding-top: 2rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
 }
 
 .text-center{
@@ -2034,6 +2191,11 @@ footer .text18{
   line-height: 22px;
 }
 
+.text-18{
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .text-20{
   font-size: 20px;
   line-height: 28px;
@@ -2047,6 +2209,11 @@ footer .text18{
 .text-28{
   font-size: 28px;
   line-height: 38px;
+}
+
+.text-32{
+  font-size: 32px;
+  line-height: 40px;
 }
 
 .text-lg{
@@ -2066,6 +2233,10 @@ footer .text18{
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-extrabold{
+  font-weight: 800;
 }
 
 .font-medium{
@@ -2195,6 +2366,22 @@ footer .text18{
 }
 
 @media (min-width: 640px){
+  .sm\:static{
+    position: static;
+  }
+
+  .sm\:absolute{
+    position: absolute;
+  }
+
+  .sm\:-top-5{
+    top: -1.25rem;
+  }
+
+  .sm\:top-0{
+    top: 0px;
+  }
+
   .sm\:order-1{
     order: 1;
   }
@@ -2203,12 +2390,20 @@ footer .text18{
     order: 2;
   }
 
+  .sm\:m-0{
+    margin: 0px;
+  }
+
   .sm\:ml-7{
     margin-left: 1.75rem;
   }
 
   .sm\:ml-auto{
     margin-left: auto;
+  }
+
+  .sm\:mr-auto{
+    margin-right: auto;
   }
 
   .sm\:mt-0{
@@ -2223,12 +2418,12 @@ footer .text18{
     margin-top: 8rem;
   }
 
-  .sm\:block{
-    display: block;
+  .sm\:mt-\[83px\]{
+    margin-top: 83px;
   }
 
-  .sm\:flex{
-    display: flex;
+  .sm\:block{
+    display: block;
   }
 
   .sm\:hidden{
@@ -2243,6 +2438,10 @@ footer .text18{
     height: 2.25rem;
   }
 
+  .sm\:h-\[143px\]{
+    height: 143px;
+  }
+
   .sm\:max-h-full{
     max-height: 100%;
   }
@@ -2255,12 +2454,36 @@ footer .text18{
     width: 33.333333%;
   }
 
+  .sm\:w-3\/12{
+    width: 25%;
+  }
+
   .sm\:w-9{
     width: 2.25rem;
   }
 
+  .sm\:w-9\/12{
+    width: 75%;
+  }
+
+  .sm\:w-\[143px\]{
+    width: 143px;
+  }
+
   .sm\:max-w-72{
     max-width: 18rem;
+  }
+
+  .sm\:max-w-full{
+    max-width: 100%;
+  }
+
+  .sm\:max-w-lg{
+    max-width: 32rem;
+  }
+
+  .sm\:max-w-32{
+    max-width: 8rem;
   }
 
   .sm\:flex-row{
@@ -2273,6 +2496,10 @@ footer .text18{
 
   .sm\:items-center{
     align-items: center;
+  }
+
+  .sm\:justify-center{
+    justify-content: center;
   }
 
   .sm\:justify-between{
@@ -2318,6 +2545,16 @@ footer .text18{
     line-height: 20px;
   }
 
+  .sm\:text-18{
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .sm\:text-42{
+    font-size: 42px;
+    line-height: 52px;
+  }
+
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2327,6 +2564,10 @@ footer .text18{
 @media (min-width: 768px){
   .md\:absolute{
     position: absolute;
+  }
+
+  .md\:-top-7{
+    top: -1.75rem;
   }
 
   .md\:left-1\/2{
@@ -2365,8 +2606,20 @@ footer .text18{
     margin-top: 1.25rem;
   }
 
+  .md\:mt-\[61px\]{
+    margin-top: 61px;
+  }
+
   .md\:block{
     display: block;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 
   .md\:h-60{
@@ -2389,8 +2642,8 @@ footer .text18{
     width: 15rem;
   }
 
-  .md\:max-w-52{
-    max-width: 13rem;
+  .md\:max-w-2xl{
+    max-width: 42rem;
   }
 
   .md\:max-w-96{
@@ -2409,10 +2662,6 @@ footer .text18{
     max-width: 28rem;
   }
 
-  .md\:max-w-\[980px\]{
-    max-width: 980px;
-  }
-
   .md\:-translate-x-1\/2{
     --tw-translate-x: -50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2425,10 +2674,6 @@ footer .text18{
 
   .md\:flex-nowrap{
     flex-wrap: nowrap;
-  }
-
-  .md\:justify-between{
-    justify-content: space-between;
   }
 
   .md\:space-x-4 > :not([hidden]) ~ :not([hidden]){
@@ -2455,14 +2700,34 @@ footer .text18{
     margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
   }
 
-  .md\:space-x-5 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+  .md\:space-y-\[30px\] > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(30px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(30px * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-y-5 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:rounded-3xl{
+    border-radius: 1.5rem;
   }
 
   .md\:border-8{
     border-width: 8px;
+  }
+
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .md\:py-14{
@@ -2470,8 +2735,21 @@ footer .text18{
     padding-bottom: 3.5rem;
   }
 
+  .md\:px-3{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:pb-14{
+    padding-bottom: 3.5rem;
+  }
+
   .md\:pb-5{
     padding-bottom: 1.25rem;
+  }
+
+  .md\:pb-7{
+    padding-bottom: 1.75rem;
   }
 
   .md\:pl-2\.5{
@@ -2486,8 +2764,17 @@ footer .text18{
     padding-top: 1.5rem;
   }
 
+  .md\:pt-7{
+    padding-top: 1.75rem;
+  }
+
   .md\:text-center{
     text-align: center;
+  }
+
+  .md\:text-20{
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .md\:text-24{
@@ -2498,6 +2785,11 @@ footer .text18{
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-50{
+    font-size: 50px;
+    line-height: 60px;
   }
 
   .md\:text-base{
@@ -2527,6 +2819,10 @@ footer .text18{
     top: -4rem;
   }
 
+  .lg\:-top-9{
+    top: -2.25rem;
+  }
+
   .lg\:left-\[20\%\]{
     left: 20%;
   }
@@ -2545,6 +2841,14 @@ footer .text18{
 
   .lg\:top-1\/2{
     top: 50%;
+  }
+
+  .lg\:-right-\[93px\]{
+    right: -93px;
+  }
+
+  .lg\:top-36{
+    top: 9rem;
   }
 
   .lg\:my-7{
@@ -2598,6 +2902,10 @@ footer .text18{
 
   .lg\:mt-2\.5{
     margin-top: 0.625rem;
+  }
+
+  .lg\:mt-20{
+    margin-top: 5rem;
   }
 
   .lg\:mt-3{
@@ -2677,10 +2985,6 @@ footer .text18{
     max-width: 13rem;
   }
 
-  .lg\:max-w-\[262px\]{
-    max-width: 262px;
-  }
-
   .lg\:max-w-\[500px\]{
     max-width: 500px;
   }
@@ -2693,6 +2997,10 @@ footer .text18{
     max-width: 674px;
   }
 
+  .lg\:max-w-\[980px\]{
+    max-width: 980px;
+  }
+
   .lg\:max-w-full{
     max-width: 100%;
   }
@@ -2701,8 +3009,16 @@ footer .text18{
     max-width: 28rem;
   }
 
-  .lg\:max-w-\[980px\]{
-    max-width: 980px;
+  .lg\:max-w-28{
+    max-width: 7rem;
+  }
+
+  .lg\:max-w-24{
+    max-width: 6rem;
+  }
+
+  .lg\:max-w-\[350px\]{
+    max-width: 350px;
   }
 
   .lg\:-translate-y-1\/2{
@@ -2736,6 +3052,18 @@ footer .text18{
     margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  }
+
   .lg\:space-y-12 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2766,16 +3094,10 @@ footer .text18{
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
   }
 
-  .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0px * var(--tw-space-x-reverse));
-    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
+  .lg\:space-y-7 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+    margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
   }
 
   .lg\:rounded-3xl{
@@ -2784,6 +3106,10 @@ footer .text18{
 
   .lg\:rounded-none{
     border-radius: 0px;
+  }
+
+  .lg\:rounded-\[50px\]{
+    border-radius: 50px;
   }
 
   .lg\:border-0{
@@ -2820,6 +3146,11 @@ footer .text18{
     padding-right: 1rem;
   }
 
+  .lg\:px-7{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
   .lg\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2830,14 +3161,14 @@ footer .text18{
     padding-bottom: 2.5rem;
   }
 
+  .lg\:py-14{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
   .lg\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .lg\:py-7{
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
   }
 
   .lg\:py-2{
@@ -2845,8 +3176,31 @@ footer .text18{
     padding-bottom: 0.5rem;
   }
 
+  .lg\:py-7{
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .lg\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:py-1\.5{
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+  }
+
+  .lg\:pb-10{
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:pb-12{
     padding-bottom: 3rem;
+  }
+
+  .lg\:pb-16{
+    padding-bottom: 4rem;
   }
 
   .lg\:pb-3{
@@ -2877,10 +3231,6 @@ footer .text18{
     padding-top: 6rem;
   }
 
-  .lg\:pt-36{
-    padding-top: 9rem;
-  }
-
   .lg\:text-16{
     font-size: 16px;
     line-height: 22px;
@@ -2889,6 +3239,11 @@ footer .text18{
   .lg\:text-18{
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .lg\:text-24{
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .lg\:text-28{
@@ -2900,9 +3255,30 @@ footer .text18{
     font-size: 36px;
     line-height: 42px;
   }
+
+  .lg\:text-75{
+    font-size: 75px;
+    line-height: 85px;
+  }
 }
 
 @media (min-width: 1280px){
+  .xl\:-right-\[93px\]{
+    right: -93px;
+  }
+
+  .xl\:top-36{
+    top: 9rem;
+  }
+
+  .xl\:-left-\[365px\]{
+    left: -365px;
+  }
+
+  .xl\:top-24{
+    top: 6rem;
+  }
+
   .xl\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -2912,8 +3288,16 @@ footer .text18{
     margin-top: -5rem;
   }
 
+  .xl\:block{
+    display: block;
+  }
+
   .xl\:max-w-full{
     max-width: 100%;
+  }
+
+  .xl\:max-w-24{
+    max-width: 6rem;
   }
 
   .xl\:space-y-14 > :not([hidden]) ~ :not([hidden]){
@@ -2931,16 +3315,16 @@ footer .text18{
     padding-bottom: 5rem;
   }
 
+  .xl\:pb-20{
+    padding-bottom: 5rem;
+  }
+
   .xl\:pb-96{
     padding-bottom: 24rem;
   }
 
   .xl\:pt-28{
     padding-top: 7rem;
-  }
-
-  .xl\:pt-40{
-    padding-top: 10rem;
   }
 
   .xl\:pt-52{
@@ -2959,6 +3343,26 @@ footer .text18{
 }
 
 @media (min-width: 1536px){
+  .\32xl\:-top-11{
+    top: -2.75rem;
+  }
+
+  .\32xl\:-left-\[396px\]{
+    left: -396px;
+  }
+
+  .\32xl\:top-\[131px\]{
+    top: 131px;
+  }
+
+  .\32xl\:-right-\[396px\]{
+    right: -396px;
+  }
+
+  .\32xl\:-right-\[133px\]{
+    right: -133px;
+  }
+
   .\32xl\:my-9{
     margin-top: 2.25rem;
     margin-bottom: 2.25rem;
@@ -2970,6 +3374,10 @@ footer .text18{
 
   .\32xl\:mb-16{
     margin-bottom: 4rem;
+  }
+
+  .\32xl\:mb-2{
+    margin-bottom: 0.5rem;
   }
 
   .\32xl\:mb-3\.5{
@@ -3036,8 +3444,28 @@ footer .text18{
     margin-top: 30px;
   }
 
+  .\32xl\:mt-\[45px\]{
+    margin-top: 45px;
+  }
+
+  .\32xl\:h-\[180px\]{
+    height: 180px;
+  }
+
+  .\32xl\:w-\[180px\]{
+    width: 180px;
+  }
+
+  .\32xl\:max-w-4xl{
+    max-width: 56rem;
+  }
+
   .\32xl\:max-w-64{
     max-width: 16rem;
+  }
+
+  .\32xl\:max-w-full{
+    max-width: 100%;
   }
 
   .\32xl\:space-x-6 > :not([hidden]) ~ :not([hidden]){
@@ -3082,8 +3510,24 @@ footer .text18{
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
   }
 
+  .\32xl\:space-y-\[50px\] > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(50px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(50px * var(--tw-space-y-reverse));
+  }
+
+  .\32xl\:space-y-9 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
+  }
+
   .\32xl\:rounded-\[36px\]{
     border-radius: 36px;
+  }
+
+  .\32xl\:rounded-\[125px\]{
+    border-radius: 125px;
   }
 
   .\32xl\:p-3{
@@ -3108,6 +3552,11 @@ footer .text18{
     padding-right: 1.5rem;
   }
 
+  .\32xl\:px-9{
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+
   .\32xl\:py-12{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -3123,6 +3572,24 @@ footer .text18{
     padding-bottom: 2.25rem;
   }
 
+  .\32xl\:py-\[78px\]{
+    padding-top: 78px;
+    padding-bottom: 78px;
+  }
+
+  .\32xl\:py-2{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .\32xl\:pb-20{
+    padding-bottom: 5rem;
+  }
+
+  .\32xl\:pb-24{
+    padding-bottom: 6rem;
+  }
+
   .\32xl\:pb-4{
     padding-bottom: 1rem;
   }
@@ -3135,12 +3602,12 @@ footer .text18{
     padding-top: 3rem;
   }
 
-  .\32xl\:pt-32{
-    padding-top: 8rem;
+  .\32xl\:pt-16{
+    padding-top: 4rem;
   }
 
-  .\32xl\:pt-52{
-    padding-top: 13rem;
+  .\32xl\:pt-32{
+    padding-top: 8rem;
   }
 
   .\32xl\:pt-64{
@@ -3162,6 +3629,11 @@ footer .text18{
     line-height: 28px;
   }
 
+  .\32xl\:text-28{
+    font-size: 28px;
+    line-height: 38px;
+  }
+
   .\32xl\:text-32{
     font-size: 32px;
     line-height: 40px;
@@ -3170,5 +3642,10 @@ footer .text18{
   .\32xl\:text-42{
     font-size: 42px;
     line-height: 52px;
+  }
+
+  .\32xl\:text-92{
+    font-size: 92px;
+    line-height: 102px;
   }
 }
